@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aureline Architecture Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">
+          <strong>Aureline</strong>
+          <small>Architecture Studio</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="navMenu">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Architectural Design • Interior Planning • 3D Visualization</p>
+          <h1>Designing homes that feel refined, functional, and timeless.</h1>
+          <p class="hero-text">
+            A premium architectural experience built for modern residences, custom villas,
+            and project showcases. Elegant visuals, clear service structure, and strong lead capture.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Request a Consultation</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>120+</strong>
+              <span>Concepts Delivered</span>
+            </div>
+            <div>
+              <strong>35+</strong>
+              <span>Custom Homes</span>
+            </div>
+            <div>
+              <strong>10+</strong>
+              <span>Years Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <span>Featured Service</span>
+            <strong>Full Architectural Package</strong>
+          </div>
+
+          <ul class="feature-list">
+            <li>Concept planning & floor layouts</li>
+            <li>3D exterior / interior visualization</li>
+            <li>Electrical, plumbing & structural drawings</li>
+            <li>Bill of quantities and project guidance</li>
+          </ul>
+
+          <div class="mini-gallery">
+            <div class="mini-img img-1"></div>
+            <div class="mini-img img-2"></div>
+            <div class="mini-img img-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What We Do</p>
+          <h1>Services tailored for premium residential projects.</h1>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <div class="icon">01</div>
+            <h3>House Design</h3>
+            <p>Smart layouts, clean circulation, and modern forms designed around your lifestyle.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">02</div>
+            <h3>3D Visualization</h3>
+            <p>Photorealistic exteriors and interiors that make the concept easy to understand.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">03</div>
+            <h3>Council Drawings</h3>
+            <p>Clear drawing sets prepared for approvals, permits, and project coordination.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">04</div>
+            <h3>Technical Packages</h3>
+            <p>Electrical, plumbing, and structural coordination for practical execution.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Selected Works</p>
+            <h1>Spaces presented with clarity, elegance, and strong visual hierarchy.</h1>
+          </div>
+
+          <div class="filter-bar" aria-label="Project filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="residential">Residential</button>
+            <button class="filter-btn" data-filter="villa">Villa</button>
+            <button class="filter-btn" data-filter="interior">Interior</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="residential">
+            <div class="project-image image-1"></div>
+            <div class="project-body">
+              <span>Residential</span>
+              <h3>Casa Ember</h3>
+              <p>A warm contemporary house concept with layered facades and natural materials.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="villa">
+            <div class="project-image image-2"></div>
+            <div class="project-body">
+              <span>Villa</span>
+              <h3>Marina Crest Villa</h3>
+              <p>Luxury villa concept with open terraces, glass edges, and soft ambient lighting.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="interior">
+            <div class="project-image image-3"></div>
+            <div class="project-body">
+              <span>Interior</span>
+              <h3>Studio Noir</h3>
+              <p>Minimal interior styling built around contrast, depth, and premium finishes.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="residential">
+            <div class="project-image image-4"></div>
+            <div class="project-body">
+              <span>Residential</span>
+              <h3>Oakline Residence</h3>
+              <p>Clean family home with balanced volumes and a calm, high-end exterior presence.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">How It Works</p>
+          <h1>A simple process that builds trust from first contact to final delivery.</h1>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>01</span>
+            <div>
+              <h3>Discovery</h3>
+              <p>We collect your requirements, land details, budget, and desired style direction.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>02</span>
+            <div>
+              <h3>Concept Design</h3>
+              <p>We create a refined layout and visual concept that aligns with your goals.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>03</span>
+            <div>
+              <h3>Technical Development</h3>
+              <p>We prepare the drawings, 3D visuals, and project documentation for execution.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>04</span>
+            <div>
+              <h3>Delivery</h3>
+              <p>Finalized files are handed over with clear presentation and support guidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Client Feedback</p>
+          <h1>Built to look trustworthy, professional, and premium.</h1>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>
+              “The presentation quality feels expensive and modern. It gives the brand a very
+              strong first impression.”
+            </p>
+            <strong>Project Owner</strong>
+          </article>
+
+          <article class="testimonial-card">
+            <p>
+              “The service sections are clear, and the project showcase makes the company look
+              more established.”
+            </p>
+            <strong>Development Client</strong>
+          </article>
+
+          <article class="testimonial-card">
+            <p>
+              “It feels much more premium than a standard property site. The layout is clean and
+              easy to explore.”
+            </p>
+            <strong>Architectural Review</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Start with a consultation and we will shape the full digital presentation.</h2>
+          <p class="contact-text">
+            This sample is ready for branding, service content, project photos, and package pricing.
+            Replace the placeholder details with your client’s actual content later.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Email Address" />
+          <input type="tel" placeholder="Phone Number" />
+          <textarea rows="4" placeholder="Project Details"></textarea>
+          <button type="submit" class="btn btn-primary full">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Aureline Architecture Studio</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
